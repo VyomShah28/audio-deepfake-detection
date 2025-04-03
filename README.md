@@ -19,9 +19,15 @@ This repository contains my solution for the Momenta audio deepfake detection as
    ```bash
    pip install -r requirements.txt
 
-3. **Obtain ASVspoof 5 Dataset**:
-  Download from Zenodo (~14 GB).<br>
-  Extract to a local directory (e.g., /path/to/ASVspoof5/).<br>
-  Update paths in RawNet2.ipynb:<br>
-  database_path = '/path/to/ASVspoof5/'<br>
-  protocols_path = '/path/to/ASVspoof5/protocols/'<br>
+3. **Obtain ASVspoof 5 Dataset**:<br>
+  -Download from Zenodo (~14 GB).<br>
+  -Extract to a local directory (e.g., /path/to/ASVspoof5/).<br>
+  -Update paths in RawNet2.ipynb:<br>
+  -database_path = '/path/to/ASVspoof5/'<br>
+  -protocols_path = '/path/to/ASVspoof5/protocols/'<br>
+
+4. **Run the Notebook**:
+-Open RawNet2.ipynb in Jupyter Notebook or Google Colab.
+-Run all cells sequentially.
+-For Colab, upload the notebook and dataset, adjusting paths accordingly.
+-Requires ~12 GB GPU memory (e.g., Colab Pro) or scale down sample size on CPU.
